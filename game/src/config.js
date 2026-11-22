@@ -1,0 +1,9 @@
+export const FIELD = { width: 1280, height: 720, top: 136, bottom: 650 };
+export const STEP = 1 / 60;
+export const BEST_KEY = 'vaultbreak.meridian.best.v1';
+export const PLAYER = { radius: 11, speed: 172, sneakSpeed: 88 };
+export const DETECTION = { guardRange: 210, cameraRange: 265, halfAngle: Math.PI * 35 / 180, rise: 19, decay: 7, lockdown: 20 };
+export const SCORE = { ghost: 1500, timePerSecond: 9, timeBudget: 240, tripPenalty: 250 };
+export const COLORS = { bg: '#080f16', floor: '#182b32', wall: '#34474c', gold: '#edc47a', mint: '#84e4ce', red: '#f76d69', ink: '#dfe9e5', muted: '#829b9f' };
+export const FONT = '"Trebuchet MS", sans-serif';
+export const MONO = '"Courier New", monospace';
